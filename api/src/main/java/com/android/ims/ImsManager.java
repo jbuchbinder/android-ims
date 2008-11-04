@@ -32,7 +32,7 @@ public class ImsManager {
     
     private static final Logger logger = Logger.getLogger(ImsManager.class.getName());
     
-    private static final String DEFAULT_PATH_NAME = "stack.com.ericsson.imsapi.ImsManagerImpl";
+    private static final String DEFAULT_PATH_NAME = "stack.com.android.imsapi.ImsManagerImpl";
     private static ImsManager singleInstance;
 
     private static String pathName = null;
