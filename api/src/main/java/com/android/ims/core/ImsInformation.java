@@ -13,7 +13,7 @@ import com.android.ims.ImsException;
  */
 public interface ImsInformation extends ImsServiceMethod {
 
-    enum State {
+    public enum State {
         /** Initial State */
         INITIATED,
         /** A info request has been sent or received, but not yet answered. */

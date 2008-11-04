@@ -11,7 +11,8 @@ package com.android.ims.core;
  * 
  */
 public interface ImsServiceMethod {
-    enum Method {
+    
+    public enum Method {
         ACK, BYE, CANCEL, INFO, INVITE, MESSAGE, NOTIFY, OPTIONS, PRACK, PUBLISH, REFER, REGISTER, SUBSCRIBE, UPDATE
     }
 

@@ -3,6 +3,8 @@
 //--------------------------------------------------------------------------
 package com.android.ims.core.media;
 
+import javax.sdp.MediaDescription;
+
 
 
 /**
@@ -152,5 +154,8 @@ public interface Media {
      *  If a  ImsMedia is changed in an established ImsSession, the application
      *  has the responsibility to call update on the ImsSession.
      */
-    void delete();    
+    void delete();
+
+
+    MediaDescription getMediaDescription();    
 }
